@@ -1,0 +1,234 @@
+2. C:\Users\Admin>cd C:\Users\Admin\git
+C:\Users\Admin\git>git clone https://github.com/galeneia/galeneia.git
+Cloning into 'galeneia'...
+warning: You appear to have cloned an empty repository.
+
+3. C:\Users\Admin>cd C:\Users\Admin\git
+C:\Users\Admin\git>git clone https://github.com/artichokeee/artichokeee.git
+Cloning into 'artichokeee'...
+remote: Enumerating objects: 169, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 169 (delta 5), reused 17 (delta 5), pack-reused 151
+Receiving objects: 100% (169/169), 87.20 KiB | 666.00 KiB/s, done.
+Resolving deltas: 100% (46/46), done.
+5. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .github/
+        README.md
+        assets/
+nothing added to commit but untracked files present (use "git add" to track)
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+No commits yet
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .github/workflows/youtube-workflow.yml
+        new file:   README.md
+        new file:   assets/Frame 635 (3).png
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "first commit add files"
+[main (root-commit) fd57674] first commit add files
+ 3 files changed, 66 insertions(+)
+ create mode 100644 .github/workflows/youtube-workflow.yml
+ create mode 100644 README.md
+ create mode 100644 assets/Frame 635 (3).png
+7.1. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README remove youtube videos"
+[main 627a813] change README remove youtube videos
+ 1 file changed, 10 deletions(-)
+7.2. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README remove header-photo"
+[main 71dc428] change README remove header-photo
+ 1 file changed, 1 deletion(-)
+7.3. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README info about me"
+[main 5bc2af0] change README info about me
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+7.4. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README delete info about cv"
+[main 11a2a77] change README delete info about cv
+ 1 file changed, 3 deletions(-)
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+nothing to commit, working tree clean
+7.5. $ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README delete some info language and tools"
+[main b7af69a] change README delete some info language and tools
+ 1 file changed, 6 deletions(-)
+7.6. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README delete info testing documentation"
+[main ab3d31d] change README delete info testing documentation
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+7.7. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+no changes added to commit (use "git add" and/or "git commit -a")
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README update info follow me"
+[main e08862b] change README update info follow me
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+7.8. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "change README update info stats"
+[main a350356] change README update info stats
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+7.9. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    assets/Frame 635 (3).png
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/photo.jpg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "delet old foto and add new one to folder assets"
+[main 758c139] delet old foto and add new one to folder assets
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 assets/Frame 635 (3).png
+ create mode 100644 assets/photo.jpg
+7.10.Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "add header with photo"
+[main db9e426] add header with photo
+ 1 file changed, 1 insertion(+)
+7.11. Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "correct header"
+[main 8097868] correct header
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/galeneia/galeneia.git
+   db9e426..8097868  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "correct header2"
+[main 3c68adc] correct header2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/galeneia/galeneia.git
+   8097868..3c68adc  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

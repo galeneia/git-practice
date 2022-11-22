@@ -1,0 +1,317 @@
+1.1. 
+C:\Users\Admin>cd C:\Users\Admin\git
+C:\Users\Admin\git>git clone https://github.com/galeneia/Test-theory.git
+Cloning into 'Test-theory'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\Admin\git>git clone https://github.com/galeneia/Test-design.git
+Cloning into 'Test-design'...
+warning: You appear to have cloned an empty repository. 
+1.2. 
+Admin@SurfacePC MINGW64 ~/git/Test-design (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test_cases.xlsx
+        "\320\224\320\227 1. \320\242\320\265\321\205\320\275\320\270\320\272\320\270 \321\202\320\265\321\201\321\202-\320\264\320\270\320\267\320\260\320\271\320\275\320\260.xlsx"
+        "\320\224\320\227 2. Pairwise Testing.xlsx"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@SurfacePC MINGW64 ~/git/Test-design (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/Test-design (main)
+$ git commit -m "add new files"
+[main (root-commit) b83818b] add new files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test_cases.xlsx
+ create mode 100644 "\320\224\320\227 1. \320\242\320\265\321\205\320\275\320\270\320\272\320\270 \321\202\320\265\321\201\321\202-\320\264\320\270\320\267\320\260\320\271\320\275\320\260.xlsx"
+ create mode 100644 "\320\224\320\227 2. Pairwise Testing.xlsx"
+
+Admin@SurfacePC MINGW64 ~/git/Test-design (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Admin@SurfacePC MINGW64 ~/git/Test-design (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 14.65 KiB | 4.88 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/galeneia/Test-design.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+1.3. C:\Users\Admin\git>git clone https://github.com/galeneia/Testing-documentation.git
+Cloning into 'Testing-documentation'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\Admin\git>
+1.4. 
+Admin@SurfacePC MINGW64 ~/git/Testing-documentation (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "\320\241\321\201\321\213\320\273\320\272\320\270 \320\270 \320\272\320\276\320\274\320\274\320\265\320\275\321\202\320\260\321\200\320\270\320\270.docx"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@SurfacePC MINGW64 ~/git/Testing-documentation (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/Testing-documentation (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "\320\241\321\201\321\213\320\273\320\272\320\270 \320\270 \320\272\320\276\320\274\320\274\320\265\320\275\321\202\320\260\321\200\320\270\320\270.docx"
+
+
+Admin@SurfacePC MINGW64 ~/git/Testing-documentation (main)
+$ git commit -m "add new file"
+[main (root-commit) f33106a] add new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\320\241\321\201\321\213\320\273\320\272\320\270 \320\270 \320\272\320\276\320\274\320\274\320\265\320\275\321\202\320\260\321\200\320\270\320\270.docx"
+
+Admin@SurfacePC MINGW64 ~/git/Testing-documentation (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 12.97 KiB | 4.32 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/Testing-documentation.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+1.5. C:\Users\Admin\git>git clone https://github.com/galeneia/Tesing-of-web-apps.git
+Cloning into 'Tesing-of-web-apps'...
+warning: You appear to have cloned an empty repository.
+1.6. Admin@SurfacePC MINGW64 ~/git/Tesing-of-web-apps (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "\320\241\321\201\321\213\320\273\320\272\320\270 \320\275\320\260 \320\264\320\267.docx"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@SurfacePC MINGW64 ~/git/Tesing-of-web-apps (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/Tesing-of-web-apps (main)
+$ git commit -m "add new file"
+[main (root-commit) 52b00fc] add new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\320\241\321\201\321\213\320\273\320\272\320\270 \320\275\320\260 \320\264\320\267.docx"
+
+Admin@SurfacePC MINGW64 ~/git/Tesing-of-web-apps (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 430.60 KiB | 20.50 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/Tesing-of-web-apps.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+1.7. C:\Users\Admin\git>git clone https://github.com/galeneia/Charles-Proxy-and-Fiddler.git
+Cloning into 'Charles-Proxy-and-Fiddler'...
+warning: You appear to have cloned an empty repository.
+1.8. 
+Admin@SurfacePC MINGW64 ~/git/Charles-Proxy-and-Fiddler (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/Charles-Proxy-and-Fiddler (main)
+$ git commit -m "add new file"
+[main (root-commit) 9250176] add new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\320\232\320\276\320\274\320\274\320\265\320\275\321\202\320\260\321\200\320\270\320\271 \320\270 \321\201\321\201\321\213\320\273\320\272\320\260.docx"
+
+Admin@SurfacePC MINGW64 ~/git/Charles-Proxy-and-Fiddler (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Admin@SurfacePC MINGW64 ~/git/Charles-Proxy-and-Fiddler (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 10.37 KiB | 10.37 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/Charles-Proxy-and-Fiddler.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'
+1.9. C:\Users\Admin\git>git clone https://github.com/galeneia/API-testing.git
+Cloning into 'API-testing'...
+warning: You appear to have cloned an empty repository.
+1.10. 
+Admin@SurfacePC MINGW64 ~/git/API-testing (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/API-testing (main)
+$ git commit -m "add new file"
+[main (root-commit) c72f772] add new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\321\202\320\265\321\201\321\202\320\270\321\200\320\276\320\262\320\260\320\275\320\270\320\265 API.docx"
+
+Admin@SurfacePC MINGW64 ~/git/API-testing (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Admin@SurfacePC MINGW64 ~/git/API-testing (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 10.20 KiB | 10.20 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/API-testing.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+1.11. C:\Users\Admin\git>git clone https://github.com/galeneia/DB-testing.git
+Cloning into 'DB-testing'...
+warning: You appear to have cloned an empty repository.
+1.12. 
+Admin@SurfacePC MINGW64 ~/git/DB-testing (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/DB-testing (main)
+$ git commit -m "add new file"
+[main (root-commit) d2663e4] add new file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HomeWork.xlsx
+ create mode 100644 HomeWork2.xlsx
+
+Admin@SurfacePC MINGW64 ~/git/DB-testing (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 5.78 MiB | 2.48 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/DB-testing.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+1.13. C:\Users\Admin\git>git clone https://github.com/galeneia/MobileApp-testing.git
+Cloning into 'MobileApp-testing'...
+warning: You appear to have cloned an empty repository.
+1.14. 
+Admin@SurfacePC MINGW64 ~/git/MobileApp-testing (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/MobileApp-testing (main)
+$ git commit -m "add new file"
+[main (root-commit) 263a963] add new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "\320\264\320\267 \320\277\320\276 \320\274\320\276\320\261\320\270\320\273\320\272\320\260\320\274.docx"
+
+Admin@SurfacePC MINGW64 ~/git/MobileApp-testing (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 11.70 KiB | 3.90 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/galeneia/MobileApp-testing.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+ARTEFACTS
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "add new section artefacts"
+[main 27a88c0] add new section artefacts
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 165.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/galeneia/galeneia.git
+   d3e5646..27a88c0  main -> main
+branch 'main' set up to track 'origin/main'.
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git add -A
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git commit -m "add all artefacts"
+[main f6a030e] add all artefacts
+ 1 file changed, 7 insertions(+)
+
+Admin@SurfacePC MINGW64 ~/git/galeneia (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 526 bytes | 526.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/galeneia/galeneia.git
+   df715df..f6a030e  main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+
